@@ -35,4 +35,4 @@ class StringExercise:
         Returns a list of integers representing
         the word lengths in string text.
         """
-        return [len(x): for x in text.split()]
+        return [len(x) for x in text.split()]
