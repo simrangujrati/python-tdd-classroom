@@ -25,7 +25,7 @@ class StringExercise:
         """
         longest_word = ''
 
-        for word in list(senetence.split()):
+        for word in list(sentence.split()):
             if len(word) > len(longest_word):
                 longest_word=word
         return longest_word
